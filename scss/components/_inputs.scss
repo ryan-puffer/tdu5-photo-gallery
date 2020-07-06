@@ -1,0 +1,23 @@
+.search-field {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10rem 0 3rem 0;
+
+
+    input {
+        border: 2px solid grey;
+        height: 3rem;
+        border-radius: 5px;
+        display: inline-block;
+        max-width: 25rem;
+        width: 90%;
+        box-shadow: 0 .75rem 1.5rem rgba($color: black, $alpha: .25);
+        transition: all .2s;
+
+        &:focus {
+            transform: scale(1.1) translateY(-2px);
+            box-shadow: 0 1rem 1.75rem rgba($color: black, $alpha: .35);
+
+        }
+    }
+}
