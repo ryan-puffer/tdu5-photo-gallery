@@ -9,9 +9,9 @@ function searchBar() {
 
 
         if(caption.indexOf(input) > -1) {
-            link.style.display = ""
+            link.style.display = "";
         } else {
-            link.style.display = "none"
+            link.style.display = "none";
         }
 
         }
